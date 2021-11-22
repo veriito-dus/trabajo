@@ -1,0 +1,73 @@
+ion-toolbar {
+  --background: url(../../assets/img/galaxia07.png);
+}
+ion-content {
+  --background: url(../../assets/img/galaxia07.png);
+}
+ion-content ion-title {
+  --color: white;
+  text-align: center;
+  // font-size: 30px;
+  font-family: cursive;
+  text-shadow: 0 5px 20px white
+  // text-shadow: 0 0 20px #2b97fa, 0 0 20px #2b97fa;
+}
+#none {
+  border: none;
+
+}
+#iniciales {
+  --background: none;
+  --color: white;
+  text-align: center;
+  border: 2px solid #c501e2;
+  // border-bottom: 2px solid #ff0534;
+  box-shadow: 0 0 20px #c501e2;
+  border-radius: 20px;
+  margin: auto;
+  width: 80%;
+  margin-top: 30px;
+}
+
+#finales {
+  --background: none;
+  --color: white;
+  text-align: center;
+  border: 2px solid #ff0534;
+  box-shadow: 0 0 20px #ff0534;
+  border-radius: 20px;
+  margin: auto;
+  width: 80%;
+  margin-top: 30px;
+}
+
+#todos {
+  --background: none;
+  --color: white;
+  text-align: center;
+  border: 2px solid #1eff05;
+  box-shadow: 0 0 20px #1eff05;
+  border-radius: 20px;
+  margin: auto;
+  width: 80%;
+  margin-top: 30px;
+}
+
+ion-icon {
+  color: white;
+}
+#icono {
+  color: white;
+}
+#inicial{
+  --background: none;
+  --color: white;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  margin-top: 30px;
+  font-size: 20px;
+}
+#inicial ion-icon{
+  font-size: 30px;
+}

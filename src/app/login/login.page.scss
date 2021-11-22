@@ -1,0 +1,63 @@
+ion-avatar {
+  margin: 0 auto;
+  box-shadow: 0 0 10px #52fd00;
+  width: 36%;
+  height: 22%;
+  margin-top: 40px;
+}
+ion-toolbar {
+  --background: url(../../assets/img/galaxia07.png);
+  --color: white;
+}
+ion-content {
+  --background: url(../../assets/img/galaxia07.png);
+}
+ion-button {
+  margin-top: 25px;
+  margin-left: 45px;
+}
+
+ion-item {
+  --background: none;
+  color: white;
+  border-top: 3px solid #ff00ff;
+  border-right: 3px solid #ff00ff;
+  border-bottom: 3px solid #2b97fa;
+  border-left: 3px solid #2b97fa;
+  box-shadow: 0 0 20px #2b97fa;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+#inicio {
+  --background: none;
+  border: 2px solid #52fd00;
+  border-radius: 20px;
+  margin-left: 23%;
+  margin-top: 50px;
+  box-shadow: 0 0 20px #52fd00;
+  
+}
+#inicio:hover {
+  --background: none;
+  border: 2px solid white;
+  box-shadow: 0 0 20px #52fd00;
+  color: #52fd00;
+}
+#registrar {
+  --background: none;
+  border: 4px solid rgb(7, 19, 175);
+  border-radius: 20px;
+  margin-left: 28%;
+  margin-top: 50px;
+}
+#registrar:hover {
+  --background: none;
+  border: 2px solid white;
+}
+form {
+  margin: 20px 20px 0 20px;
+}
+ion-title{
+  font-size: 10px;
+  text-align: end;
+}

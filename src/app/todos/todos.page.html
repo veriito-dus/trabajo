@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start" id="icono">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Todos los datos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let items of tasks;let indice=index">
+    <ion-card-header>
+      <ion-card-title>{{items.title}}</ion-card-title>
+      <ion-img [src]="items.url"></ion-img>
+    </ion-card-header>
+    <ion-card-content>
+      Album # {{items.albumId}}, se encuentra en: {{items.thumbnailUrl}}
+    </ion-card-content>
+    <ion-label>posicion {{indice}} en este arreglo</ion-label>
+  </ion-card>
+</ion-content>
